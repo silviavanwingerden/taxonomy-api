@@ -14,6 +14,8 @@ After importing the csv file into the project, run the following command from th
 python train.py
 ```
 
+The predictions are now based on the data from the new csv file, it recommended to retrain the API periodically.
+
 ## Using the API
 ### GET /task
 Endpoint used for the cognitive level prediction
