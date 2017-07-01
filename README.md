@@ -1,7 +1,9 @@
 # Taxonomy API
 
 API used for predicting the cognitive level of a question
+# Training the API
 
+# Using the API
 ## GET /task
 Endpoint used for the cognitive level prediction
  
