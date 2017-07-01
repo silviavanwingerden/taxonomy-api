@@ -8,7 +8,7 @@ The right csv file can be retrieved by using the following SQL Query:
 ```sql
 SELECT `introduction`,`question_type_id` FROM `tasks` WHERE `introduction` != 0
 ```
-
+Make sure the csv file has the name: "allquestiontypes.csv
 After importing the csv file into the project, run the following command from the /categorize folder:
 ```
 python train.py
