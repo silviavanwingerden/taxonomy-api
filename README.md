@@ -25,3 +25,9 @@ query-string: ?introduction={introduction}
 {introduction}:
 The introduction of a question should be converted to a URL encoded string.
 
+## Testing the predictions
+In order to find out what percentage of the predictions are predicted right you just have to run 1 command
+```
+python train.py
+```
+this prints the accuracy of the predictions in a percentage, this number is influenced every time a new model is trained
