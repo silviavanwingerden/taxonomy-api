@@ -9,6 +9,11 @@ The right csv file can be retrieved by using the following SQL Query:
 SELECT `introduction`,`question_type_id` FROM `tasks` WHERE `introduction` != 0
 ```
 
+After importing the csv file into the project, run the following command from the /categorize folder:
+```
+python train.py
+```
+
 ## Using the API
 ### GET /task
 Endpoint used for the cognitive level prediction
