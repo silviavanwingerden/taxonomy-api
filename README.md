@@ -11,7 +11,7 @@ SELECT `introduction`,`question_type_id` FROM `tasks` WHERE `introduction` != 0
 Make sure the csv file has the name: "allquestiontypes.csv"
 After importing the csv file into the project, run the following command from the /categorize folder:
 ```
-python train.py
+python trainmodel.py
 ```
 
 The predictions are now based on the data from the new csv file, it recommended to retrain the API periodically.
