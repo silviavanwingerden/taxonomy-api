@@ -1,0 +1,9 @@
+falcon
+gunicorn
+joblib
+sklearn
+numpy
+nltk
+re
+bs4
+pandas
