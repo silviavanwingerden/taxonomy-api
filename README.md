@@ -13,8 +13,14 @@ After importing the csv file into the project, run the following command from th
 ```
 python trainmodel.py
 ```
-
 The predictions are now based on the data from the new csv file, it recommended to retrain the API periodically.
+
+## Testing the predictions
+In order to find out what percentage of the predictions are predicted right you just have to run 1 command
+```
+python train.py
+```
+this prints the accuracy of the predictions in a percentage, this number is influenced every time a new model is trained.
 
 ## Using the API
 ### GET /task
@@ -25,9 +31,3 @@ query-string: ?introduction={introduction}
 {introduction}:
 The introduction of a question should be converted to a URL encoded string.
 
-## Testing the predictions
-In order to find out what percentage of the predictions are predicted right you just have to run 1 command
-```
-python train.py
-```
-this prints the accuracy of the predictions in a percentage, this number is influenced every time a new model is trained
